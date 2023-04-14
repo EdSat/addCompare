@@ -31,6 +31,3 @@ def compare_csv_files(file1, file2, output_file):
         csv_writer.writerows(changes)
     
     print(f"Vergleich abgeschlossen! Änderungen wurden in {output_file} gespeichert.")
-
-# Beispielaufruf
-compare_csv_files('file1.csv', 'file2.csv', 'changes.csv')
